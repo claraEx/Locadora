@@ -1,0 +1,31 @@
+POST http://localhost:3333/filme
+Content-Type: application/json
+
+{
+    "titulo": "filme 01",
+    "genero": "genero 01",
+    "duraçao": "2h20"
+}
+
+###
+
+GET http://localhost:3333/filme
+
+###
+
+GET http://localhost:3333/filme?search=Lorax
+
+###
+
+PUT http://localhost:3333/filmes/
+Content-Type: application/json
+
+{
+    "titulo": "Lorax",
+    "genero": "Infantil",
+    "duraçao": "1h20"
+}
+
+###
+
+DELETE http://localhost:3333/filmes/
