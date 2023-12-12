@@ -17,7 +17,7 @@ GET http://localhost:3333/filme?search=Lorax
 
 ###
 
-PUT http://localhost:3333/filmes/
+PUT http://localhost:3333/filmes/84f857e8-fe21-4201-8f56-4a3343611685
 Content-Type: application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/filmes/
+DELETE http://localhost:3333/filmes/84f857e8-fe21-4201-8f56-4a3343611685
